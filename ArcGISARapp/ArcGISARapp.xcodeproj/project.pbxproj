@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235C6E5833BFE42137254CA0 /* Pods_ArcGISARappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C8D2BE60E5A66B126DA60 /* Pods_ArcGISARappUITests.framework */; };
+		668B9D8623ABCA6F00177046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9D8523ABCA6F00177046 /* AppDelegate.swift */; };
+		668B9D8823ABCA6F00177046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9D8723ABCA6F00177046 /* SceneDelegate.swift */; };
+		668B9D8A23ABCA6F00177046 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9D8923ABCA6F00177046 /* MapViewController.swift */; };
+		668B9D8D23ABCA6F00177046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668B9D8B23ABCA6F00177046 /* Main.storyboard */; };
+		668B9D8F23ABCA7000177046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668B9D8E23ABCA7000177046 /* Assets.xcassets */; };
+		668B9D9223ABCA7000177046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668B9D9023ABCA7000177046 /* LaunchScreen.storyboard */; };
+		668B9D9D23ABCA7100177046 /* ArcGISARappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9D9C23ABCA7100177046 /* ArcGISARappTests.swift */; };
+		668B9DA823ABCA7100177046 /* ArcGISARappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9DA723ABCA7100177046 /* ArcGISARappUITests.swift */; };
+		668B9DB623ABCAC500177046 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9DB523ABCAC500177046 /* ARViewController.swift */; };
+		668B9DB823ACB08300177046 /* StructMapToAr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B9DB723ACB08300177046 /* StructMapToAr.swift */; };
+		66B99F0723ACC3D200377727 /* ArcGISARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B99F0623ACC3D200377727 /* ArcGISARView.swift */; };
+		71CA329C4987C2844A2CD189 /* Pods_ArcGISARappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FE1951F58D940459EDE469 /* Pods_ArcGISARappTests.framework */; };
+		AA211BF5FF6635A287748EBB /* Pods_ArcGISARapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D7E57A724F1E9A14350B79 /* Pods_ArcGISARapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668B9D9923ABCA7100177046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668B9D7A23ABCA6F00177046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668B9D8123ABCA6F00177046;
+			remoteInfo = ArcGISARapp;
+		};
+		668B9DA423ABCA7100177046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668B9D7A23ABCA6F00177046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668B9D8123ABCA6F00177046;
+			remoteInfo = ArcGISARapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227C8D2BE60E5A66B126DA60 /* Pods_ArcGISARappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcGISARappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FE1951F58D940459EDE469 /* Pods_ArcGISARappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcGISARappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28080C21C898B14271D83B2F /* Pods-ArcGISARappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISARappUITests.release.xcconfig"; path = "Target Support Files/Pods-ArcGISARappUITests/Pods-ArcGISARappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28D7E57A724F1E9A14350B79 /* Pods_ArcGISARapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcGISARapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		352523F93BB86570A0206A84 /* Pods-ArcGISARappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISARappTests.debug.xcconfig"; path = "Target Support Files/Pods-ArcGISARappTests/Pods-ArcGISARappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41DDCA2215985EED81E67A2C /* Pods-ArcGISARappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISARappTests.release.xcconfig"; path = "Target Support Files/Pods-ArcGISARappTests/Pods-ArcGISARappTests.release.xcconfig"; sourceTree = "<group>"; };
+		668B9D8223ABCA6F00177046 /* ArcGISARapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcGISARapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668B9D8523ABCA6F00177046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		668B9D8723ABCA6F00177046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		668B9D8923ABCA6F00177046 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		668B9D8C23ABCA6F00177046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668B9D8E23ABCA7000177046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668B9D9123ABCA7000177046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668B9D9323ABCA7000177046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668B9D9823ABCA7100177046 /* ArcGISARappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcGISARappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668B9D9C23ABCA7100177046 /* ArcGISARappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISARappTests.swift; sourceTree = "<group>"; };
+		668B9D9E23ABCA7100177046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668B9DA323ABCA7100177046 /* ArcGISARappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcGISARappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668B9DA723ABCA7100177046 /* ArcGISARappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISARappUITests.swift; sourceTree = "<group>"; };
+		668B9DA923ABCA7100177046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668B9DB523ABCAC500177046 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		668B9DB723ACB08300177046 /* StructMapToAr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructMapToAr.swift; sourceTree = "<group>"; };
+		66B99F0623ACC3D200377727 /* ArcGISARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISARView.swift; sourceTree = "<group>"; };
+		774D77254787F5CB2FE1C59C /* Pods-ArcGISARappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISARappUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArcGISARappUITests/Pods-ArcGISARappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8132690CCAB4EFC3C5D64736 /* Pods-ArcGISARapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISARapp.release.xcconfig"; path = "Target Support Files/Pods-ArcGISARapp/Pods-ArcGISARapp.release.xcconfig"; sourceTree = "<group>"; };
+		E1EE1E879C1B69EBE841F852 /* Pods-ArcGISARapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISARapp.debug.xcconfig"; path = "Target Support Files/Pods-ArcGISARapp/Pods-ArcGISARapp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668B9D7F23ABCA6F00177046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA211BF5FF6635A287748EBB /* Pods_ArcGISARapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668B9D9523ABCA7100177046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CA329C4987C2844A2CD189 /* Pods_ArcGISARappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668B9DA023ABCA7100177046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235C6E5833BFE42137254CA0 /* Pods_ArcGISARappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A55775F9D0E4838957CB66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE1E879C1B69EBE841F852 /* Pods-ArcGISARapp.debug.xcconfig */,
+				8132690CCAB4EFC3C5D64736 /* Pods-ArcGISARapp.release.xcconfig */,
+				352523F93BB86570A0206A84 /* Pods-ArcGISARappTests.debug.xcconfig */,
+				41DDCA2215985EED81E67A2C /* Pods-ArcGISARappTests.release.xcconfig */,
+				774D77254787F5CB2FE1C59C /* Pods-ArcGISARappUITests.debug.xcconfig */,
+				28080C21C898B14271D83B2F /* Pods-ArcGISARappUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A073A70257E3AC484FEB975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28D7E57A724F1E9A14350B79 /* Pods_ArcGISARapp.framework */,
+				24FE1951F58D940459EDE469 /* Pods_ArcGISARappTests.framework */,
+				227C8D2BE60E5A66B126DA60 /* Pods_ArcGISARappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668B9D7923ABCA6F00177046 = {
+			isa = PBXGroup;
+			children = (
+				668B9D8423ABCA6F00177046 /* ArcGISARapp */,
+				668B9D9B23ABCA7100177046 /* ArcGISARappTests */,
+				668B9DA623ABCA7100177046 /* ArcGISARappUITests */,
+				668B9D8323ABCA6F00177046 /* Products */,
+				02A55775F9D0E4838957CB66 /* Pods */,
+				5A073A70257E3AC484FEB975 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		668B9D8323ABCA6F00177046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668B9D8223ABCA6F00177046 /* ArcGISARapp.app */,
+				668B9D9823ABCA7100177046 /* ArcGISARappTests.xctest */,
+				668B9DA323ABCA7100177046 /* ArcGISARappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668B9D8423ABCA6F00177046 /* ArcGISARapp */ = {
+			isa = PBXGroup;
+			children = (
+				668B9D8523ABCA6F00177046 /* AppDelegate.swift */,
+				668B9D8723ABCA6F00177046 /* SceneDelegate.swift */,
+				668B9D8923ABCA6F00177046 /* MapViewController.swift */,
+				668B9D8B23ABCA6F00177046 /* Main.storyboard */,
+				668B9D8E23ABCA7000177046 /* Assets.xcassets */,
+				668B9D9023ABCA7000177046 /* LaunchScreen.storyboard */,
+				668B9D9323ABCA7000177046 /* Info.plist */,
+				668B9DB523ABCAC500177046 /* ARViewController.swift */,
+				668B9DB723ACB08300177046 /* StructMapToAr.swift */,
+				66B99F0623ACC3D200377727 /* ArcGISARView.swift */,
+			);
+			path = ArcGISARapp;
+			sourceTree = "<group>";
+		};
+		668B9D9B23ABCA7100177046 /* ArcGISARappTests */ = {
+			isa = PBXGroup;
+			children = (
+				668B9D9C23ABCA7100177046 /* ArcGISARappTests.swift */,
+				668B9D9E23ABCA7100177046 /* Info.plist */,
+			);
+			path = ArcGISARappTests;
+			sourceTree = "<group>";
+		};
+		668B9DA623ABCA7100177046 /* ArcGISARappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				668B9DA723ABCA7100177046 /* ArcGISARappUITests.swift */,
+				668B9DA923ABCA7100177046 /* Info.plist */,
+			);
+			path = ArcGISARappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668B9D8123ABCA6F00177046 /* ArcGISARapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668B9DAC23ABCA7100177046 /* Build configuration list for PBXNativeTarget "ArcGISARapp" */;
+			buildPhases = (
+				45504670EF33C47BEB5DDFD4 /* [CP] Check Pods Manifest.lock */,
+				668B9D7E23ABCA6F00177046 /* Sources */,
+				668B9D7F23ABCA6F00177046 /* Frameworks */,
+				668B9D8023ABCA6F00177046 /* Resources */,
+				7497625F3DA3B35CFAB860E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcGISARapp;
+			productName = ArcGISARapp;
+			productReference = 668B9D8223ABCA6F00177046 /* ArcGISARapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668B9D9723ABCA7100177046 /* ArcGISARappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668B9DAF23ABCA7100177046 /* Build configuration list for PBXNativeTarget "ArcGISARappTests" */;
+			buildPhases = (
+				22BE11E189317AC184AF321F /* [CP] Check Pods Manifest.lock */,
+				668B9D9423ABCA7100177046 /* Sources */,
+				668B9D9523ABCA7100177046 /* Frameworks */,
+				668B9D9623ABCA7100177046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668B9D9A23ABCA7100177046 /* PBXTargetDependency */,
+			);
+			name = ArcGISARappTests;
+			productName = ArcGISARappTests;
+			productReference = 668B9D9823ABCA7100177046 /* ArcGISARappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		668B9DA223ABCA7100177046 /* ArcGISARappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668B9DB223ABCA7100177046 /* Build configuration list for PBXNativeTarget "ArcGISARappUITests" */;
+			buildPhases = (
+				F13BF3AC996845C211AB5756 /* [CP] Check Pods Manifest.lock */,
+				668B9D9F23ABCA7100177046 /* Sources */,
+				668B9DA023ABCA7100177046 /* Frameworks */,
+				668B9DA123ABCA7100177046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668B9DA523ABCA7100177046 /* PBXTargetDependency */,
+			);
+			name = ArcGISARappUITests;
+			productName = ArcGISARappUITests;
+			productReference = 668B9DA323ABCA7100177046 /* ArcGISARappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668B9D7A23ABCA6F00177046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Esri France";
+				TargetAttributes = {
+					668B9D8123ABCA6F00177046 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					668B9D9723ABCA7100177046 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 668B9D8123ABCA6F00177046;
+					};
+					668B9DA223ABCA7100177046 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 668B9D8123ABCA6F00177046;
+					};
+				};
+			};
+			buildConfigurationList = 668B9D7D23ABCA6F00177046 /* Build configuration list for PBXProject "ArcGISARapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668B9D7923ABCA6F00177046;
+			productRefGroup = 668B9D8323ABCA6F00177046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668B9D8123ABCA6F00177046 /* ArcGISARapp */,
+				668B9D9723ABCA7100177046 /* ArcGISARappTests */,
+				668B9DA223ABCA7100177046 /* ArcGISARappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668B9D8023ABCA6F00177046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668B9D9223ABCA7000177046 /* LaunchScreen.storyboard in Resources */,
+				668B9D8F23ABCA7000177046 /* Assets.xcassets in Resources */,
+				668B9D8D23ABCA6F00177046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668B9D9623ABCA7100177046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668B9DA123ABCA7100177046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22BE11E189317AC184AF321F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcGISARappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45504670EF33C47BEB5DDFD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcGISARapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7497625F3DA3B35CFAB860E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcGISARapp/Pods-ArcGISARapp-frameworks.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcGISARapp/Pods-ArcGISARapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13BF3AC996845C211AB5756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcGISARappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668B9D7E23ABCA6F00177046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668B9DB823ACB08300177046 /* StructMapToAr.swift in Sources */,
+				668B9D8A23ABCA6F00177046 /* MapViewController.swift in Sources */,
+				668B9D8623ABCA6F00177046 /* AppDelegate.swift in Sources */,
+				668B9D8823ABCA6F00177046 /* SceneDelegate.swift in Sources */,
+				66B99F0723ACC3D200377727 /* ArcGISARView.swift in Sources */,
+				668B9DB623ABCAC500177046 /* ARViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668B9D9423ABCA7100177046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668B9D9D23ABCA7100177046 /* ArcGISARappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668B9D9F23ABCA7100177046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668B9DA823ABCA7100177046 /* ArcGISARappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668B9D9A23ABCA7100177046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668B9D8123ABCA6F00177046 /* ArcGISARapp */;
+			targetProxy = 668B9D9923ABCA7100177046 /* PBXContainerItemProxy */;
+		};
+		668B9DA523ABCA7100177046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668B9D8123ABCA6F00177046 /* ArcGISARapp */;
+			targetProxy = 668B9DA423ABCA7100177046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		668B9D8B23ABCA6F00177046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668B9D8C23ABCA6F00177046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		668B9D9023ABCA7000177046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668B9D9123ABCA7000177046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668B9DAA23ABCA7100177046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		668B9DAB23ABCA7100177046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668B9DAD23ABCA7100177046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EE1E879C1B69EBE841F852 /* Pods-ArcGISARapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S5B44MSPY;
+				INFOPLIST_FILE = ArcGISARapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Esri-France.ArcGISARapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668B9DAE23ABCA7100177046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8132690CCAB4EFC3C5D64736 /* Pods-ArcGISARapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S5B44MSPY;
+				INFOPLIST_FILE = ArcGISARapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Esri-France.ArcGISARapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		668B9DB023ABCA7100177046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352523F93BB86570A0206A84 /* Pods-ArcGISARappTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S5B44MSPY;
+				INFOPLIST_FILE = ArcGISARappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Esri-France.ArcGISARappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcGISARapp.app/ArcGISARapp";
+			};
+			name = Debug;
+		};
+		668B9DB123ABCA7100177046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DDCA2215985EED81E67A2C /* Pods-ArcGISARappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S5B44MSPY;
+				INFOPLIST_FILE = ArcGISARappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Esri-France.ArcGISARappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcGISARapp.app/ArcGISARapp";
+			};
+			name = Release;
+		};
+		668B9DB323ABCA7100177046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774D77254787F5CB2FE1C59C /* Pods-ArcGISARappUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S5B44MSPY;
+				INFOPLIST_FILE = ArcGISARappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Esri-France.ArcGISARappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcGISARapp;
+			};
+			name = Debug;
+		};
+		668B9DB423ABCA7100177046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28080C21C898B14271D83B2F /* Pods-ArcGISARappUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S5B44MSPY;
+				INFOPLIST_FILE = ArcGISARappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Esri-France.ArcGISARappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcGISARapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668B9D7D23ABCA6F00177046 /* Build configuration list for PBXProject "ArcGISARapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668B9DAA23ABCA7100177046 /* Debug */,
+				668B9DAB23ABCA7100177046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668B9DAC23ABCA7100177046 /* Build configuration list for PBXNativeTarget "ArcGISARapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668B9DAD23ABCA7100177046 /* Debug */,
+				668B9DAE23ABCA7100177046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668B9DAF23ABCA7100177046 /* Build configuration list for PBXNativeTarget "ArcGISARappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668B9DB023ABCA7100177046 /* Debug */,
+				668B9DB123ABCA7100177046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668B9DB223ABCA7100177046 /* Build configuration list for PBXNativeTarget "ArcGISARappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668B9DB323ABCA7100177046 /* Debug */,
+				668B9DB423ABCA7100177046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668B9D7A23ABCA6F00177046 /* Project object */;
+}
